@@ -1,0 +1,2 @@
+should run:
+>>> docker tag udagram-frontend udagram-frontend:local
