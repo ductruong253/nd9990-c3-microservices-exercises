@@ -1,2 +1,12 @@
 should run:
 >>> docker tag udagram-frontend udagram-frontend:local
+
+env for local postgres:
+>>> host.docker.internal
+
+
+
+aws eks update-kubeconfig \
+    --region us-west-2 \
+    --name udagram-services \
+    --role-arn arn:aws:iam::768925086592:role/truongdd
